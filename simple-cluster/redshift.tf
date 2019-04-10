@@ -23,6 +23,7 @@ resource "aws_redshift_cluster" "simple_cluster" {
   vpc_security_group_ids = ["${var.node_sgs}"]
   iam_roles = ["${aws_iam_role.simple_bucket_access.arn}"]
 
+  final_snapshot_identifier = "${local.name}-final"
   skip_final_snapshot = "${var.final_snapshot}"
 }
 
