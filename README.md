@@ -20,3 +20,4 @@ style, including IAM.
 * I was surprised there is not an `arn` attribute on the Redshift Terraform Resource; I am interested in why and if this
 is a point I might be able to contribute back to the AWS Terraform provider.
 * I ran into [#3104](https://github.com/terraform-providers/terraform-provider-aws/issues/3104) which was a bit unfortunate.
+* Feels like Redshift takes about as long as RDS to create & destroy.
