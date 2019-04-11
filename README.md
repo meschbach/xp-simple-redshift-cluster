@@ -3,7 +3,7 @@
 Contains an example of a Terraform module to manage a Redshift cluster and an S3 bucket.  As a result of this being an
 example there were some liberties taken.  For example, on a secure network the Redshift cluster would be attached under
 a set of subnets specific to the cluster.  The example module is not versioned under Git as would be expected via the
-normal practice.
+normal practice.  And the data isn't encrypted via KMS.
 
 ## Components
 
